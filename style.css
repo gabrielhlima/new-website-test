@@ -1,0 +1,84 @@
+/*
+Selector {
+    Property: value;
+{
+*/
+
+/*
+* = all elements
+*/
+
+* {
+    text-align: left;
+}
+
+body {
+    background-color: #D1A8C7;
+    background-size: cover;
+}
+
+h2 {
+    color: #974C84;
+    text-align: center;
+    border: 5px solid #6B4A8A;
+    cursor: pointer;
+}
+
+p {
+    color: #252525;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*
+.class {
+    Property: value;
+}
+*/
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: black;
+}
+
+/*
+#id {
+    Property: value;
+}
+*/
+
+#div1 {
+    background: rgba(0, 0, 255, 0.1) ;
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.1) ;
+}
+
+/*
+p {
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+*/
